@@ -12,7 +12,7 @@
   </head>
   <body>
   <div class="jumbotron container" >
-        <h1 class="display-3">Bienvenu Dans BiB>_>PIXEL!</h1>
+        <h1 class="display-3">Bhhienvenu Dans BiB>_>PIXEL!</h1>
         <p class="lead">L'album Photo a votre gout</p>
         <hr class="my-4">
         <p>Que voulez vous Faire Aujourd'hui</p>
