@@ -39,8 +39,6 @@ $success[]="fichier enregistre ";
         
          }
          
-      }else{
-         print_r($errors);
       }
    }
 ?>
