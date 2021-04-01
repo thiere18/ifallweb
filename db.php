@@ -1,7 +1,7 @@
 <?php
 try {
     $user="admin";
-    $pass="adminImmobilier";
+    $pass="adminImmoilier";
     $pdo = new PDO('mysql:host=database-3.c646csheukgs.us-east-2.rds.amazonaws.com;dbname=biblio;charset=utf8', $user, $pass);
 
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
