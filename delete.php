@@ -14,11 +14,12 @@ if(!unlink($path))
 $statement=$pdo->prepare($query);
 $k=$statement->execute();
 if($k){
-    header("Location:suup.php");
+    $url=$_SERVER['HTTP_REFERER'];
+    header("Location:$url");
 }else{
     echo "echcec incomprehensible";
 }
-}
 
+}
 
 ?>
